@@ -1,0 +1,36 @@
+body {
+    background: #8E2DE2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    text-align: center;
+}
+
+h1 {
+    margin: 10% auto 7% auto;
+    color: silver;
+}
+
+h5 {
+    color: #89d3e0;
+    margin-bottom: 2%;
+}
+
+h6 {
+    color: bisque;
+}
+
+a {
+    margin-top: 1rem;
+    margin-bottom: 4%;
+}
+
+input {
+    color: #95ffdc;
+    background: #39738b98;
+}
+
+label {
+    width: 100%;
+    margin: 2% auto;
+}
