@@ -1,0 +1,51 @@
+body {
+    background: #8E2DE2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h1 {
+    margin: 10% auto 5% auto;
+    margin-top: auto;
+    color: silver;
+
+    text-align: center;
+}
+
+h5 {
+    color: #89d3e0;
+    margin-bottom: 2%;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    margin-left: 40%;
+    margin-bottom: 5%;
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    color: #889aff;
+    background: #1b028a;
+
+    margin-bottom: 2%;
+    
+    border-radius: 10px;
+}
+
+input[readonly] {
+    background: #002c55;
+}
+
+label {
+    width: 100px;
+}
+
+a[class = "btn btn-info"] {
+    margin: 1% 1%;
+}

@@ -1,0 +1,106 @@
+body {
+    /* background-color: #06323b; */
+
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-family: 'Play', sans-serif;
+    /* font-family: 'Syne', sans-serif; */
+}
+
+/* h1 {
+  text-align: center;
+}
+
+h3 {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+h5 {
+    margin: 2rem auto;
+}
+
+ */
+
+label {
+    margin: .75rem auto; 
+    width: 250px;
+}
+
+input {
+    width: 200px;
+    
+    background: black;
+    color: aqua;
+
+    border-radius: 10px;
+}
+
+button {
+    width: auto;
+    margin: 1rem auto;
+}
+
+#incomeBox {
+    width: 175px;
+}
+
+#indulgencesValue {
+    width: 400px;
+}
+
+#amountSplits {
+    height: 200px;
+}
+
+.whiteText {
+    color: white;
+}
+
+.col-6 {
+    
+    background: #4e54c8a4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #8f94fba1, #4e54c8a1);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #8f94fba1, #4e54c8a1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+    /* border-radius: 30px; */
+}
+
+.assetsFormat {
+    height: 315px;
+}
+
+.assetsFormat h4{
+    height: auto;
+}
+
+.btnOther {
+    width: 230px;
+    margin: 1rem 25%;
+}
+
+#finalInput{
+    height: auto;
+    margin: auto;
+    text-align: center;
+    /* margin: auto .25rem; */
+}
+
+a[class = "btn btn-info"] {
+    margin: 1% 1%;
+}
+
+div[class = "row"] p {
+    margin: auto 1rem;
+}
+
+
+
+/* .splits {
+    text-align: center;
+    background-color: #0F2027;
+    border-radius: 30px;
+} */

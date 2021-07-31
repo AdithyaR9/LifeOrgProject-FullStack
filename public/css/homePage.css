@@ -1,0 +1,107 @@
+body {
+    /* background-color: #06323b; */
+
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-family: 'Play', sans-serif;
+    /* font-family: 'Syne', sans-serif; */
+}
+
+#mainNavbar .nav-link {
+    color: #03b2b5;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #000000;
+}
+
+#mainNavbar .navbar-brand{
+    color: #9153ef;
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
+#userName {
+    color: #ab82e9;
+    padding-top: .5rem;
+    padding-right: 5px;
+}
+.btn-logout {
+    padding-top: 5px;
+    height: 2.2rem;
+}
+
+/* Navbar background when page is scrolled */
+.navbar.scrolled {
+    background: #00000084;
+    transition: background 350ms;
+}
+
+/* ImageBoard Image */
+#imageBoard {
+    opacity: .1;
+    background-color: #43434339;
+    margin: 3% auto;
+}
+
+/* Centered text on the ImageBoard */
+.ImageBoardText {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 2.65vw;
+    color: #9153ef;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .ImageBoardText span{
+    color: #03b2b5;
+    opacity: .7;
+  }
+
+.blurbBackground {
+    border-radius: 20px;
+    background-color: #00000017;
+}
+.BlurbTitles {
+    color: #ffffff;
+}
+.BlurbImages {
+    border-radius: 30px;
+}
+
+
+#loginForm form{
+    color: #ffffff;
+    margin: 5% 20%;
+    width: 60%;
+}
+#signupForm form{
+    color: #ffffff;
+    margin: 5% 20%;
+    width: 60%;
+}
+
+  /* Section Colors  by ID*/
+.paraFinances {
+    color: #15a830;
+}
+.paraList {
+    color: #1a7fc8;
+}
+.paraTimeManagement {
+    color: #bea528;
+}
+.paraGoals {
+    color: #b21896;
+}
+.paraHealth {
+    color: #cb1f1f;
+}
+
+/* hr divider stylizarion */
+hr {
+    border-color: white;
+}
